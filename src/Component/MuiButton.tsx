@@ -74,10 +74,10 @@ const MuiButton = () => {
             </Stack>
             <Stack direction='row'>
                 <ToggleButtonGroup aria-label='text formatting'
-                value={formats}onChange={handleFormatChange}
-                color='success'
-                orientation='vertical'
-                exclusive
+                    value={formats} onChange={handleFormatChange}
+                    color='success'
+                    orientation='vertical'
+                    exclusive
                 >
 
                     <ToggleButton value='bold' aria-label='bold'>

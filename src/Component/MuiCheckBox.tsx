@@ -22,7 +22,7 @@ export default function MuiCheckBox() {
     }
 
     const [skills, setSkills] = useState<string[]>([]);
-    console.log("Value Is:", {skills});
+    console.log("Value Is:", { skills });
     const handleSkillChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const index = skills.indexOf(event.target.value)
         if (index === -1) {
@@ -35,7 +35,7 @@ export default function MuiCheckBox() {
     return (
         <Box>
             <Box>
-                <FormControlLabel 
+                <FormControlLabel
                     label='i accept Tram And Condation'
                     control={<Checkbox checked={acceptTnc} onChange={handleChange} />}
 
@@ -54,20 +54,20 @@ export default function MuiCheckBox() {
                     <FormLabel> Skill </FormLabel>
                     <FormGroup>
                         <FormControlLabel
-                         label='HTML'
-                         value='html'
-                         control={<Checkbox  checked={skills.includes('html')} onChange={handleSkillChange} />}
+                            label='HTML'
+                            value='html'
+                            control={<Checkbox checked={skills.includes('html')} onChange={handleSkillChange} />}
                         />
                         <FormControlLabel
                             label='CSS'
                             value='css'
-                            control={<Checkbox  checked={skills.includes('css')} onChange={handleSkillChange} />}
+                            control={<Checkbox checked={skills.includes('css')} onChange={handleSkillChange} />}
                         />
 
                         <FormControlLabel
                             label='JAVASCRIPT'
                             value='javascript'
-                            control={<Checkbox  checked={skills.includes('javascript')} onChange={handleSkillChange} />}
+                            control={<Checkbox checked={skills.includes('javascript')} onChange={handleSkillChange} />}
                         />
                     </FormGroup>
                     <FormHelperText>Invakid Selection</FormHelperText>
