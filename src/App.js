@@ -1,5 +1,6 @@
 import './App.css';
-import { MuiAccordion } from './Component/MuiAccordion.tsx';
+// import { MuiAccordion } from './Component/MuiAccordion.tsx';
+import { MuiImageList } from './Component/MuiImageList.tsx';
 // import { MuiAutoComplete } from './Component/MuiAutoComplete.tsx';
 // import MuiButton from './Component/MuiButton.tsx';
 // import { MuiCard } from './Component/MuiCard.tsx';
@@ -25,7 +26,8 @@ function App() {
       <MuiAutoComplete/>
       <MuiLayout/> */}
       {/* <MuiCard/> */}
-      <MuiAccordion/>
+      {/* <MuiAccordion/> */}
+      <MuiImageList/>
     </div>
   );
 }
