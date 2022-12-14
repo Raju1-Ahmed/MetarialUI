@@ -1,7 +1,8 @@
 import './App.css';
+import { MuiAccordion } from './Component/MuiAccordion.tsx';
 // import { MuiAutoComplete } from './Component/MuiAutoComplete.tsx';
 // import MuiButton from './Component/MuiButton.tsx';
-import { MuiCard } from './Component/MuiCard.tsx';
+// import { MuiCard } from './Component/MuiCard.tsx';
 // import MuiCheckBox from './Component/MuiCheckBox.tsx';
 // import { MuiLayout } from './Component/MuiLayout.tsx';
 // import MuiRadioButton from './Component/MuiRadioButton.tsx';
@@ -23,7 +24,8 @@ function App() {
       <MuiSwitch/>
       <MuiAutoComplete/>
       <MuiLayout/> */}
-      <MuiCard/>
+      {/* <MuiCard/> */}
+      <MuiAccordion/>
     </div>
   );
 }
