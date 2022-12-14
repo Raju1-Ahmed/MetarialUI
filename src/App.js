@@ -1,4 +1,5 @@
 import './App.css';
+import { MuiAutoComplete } from './Component/MuiAutoComplete.tsx';
 import MuiButton from './Component/MuiButton.tsx';
 import MuiCheckBox from './Component/MuiCheckBox.tsx';
 import MuiRadioButton from './Component/MuiRadioButton.tsx';
@@ -18,6 +19,7 @@ function App() {
       <MuiRadioButton/>
       <MuiCheckBox/>
       <MuiSwitch/>
+      <MuiAutoComplete/>
     </div>
   );
 }
