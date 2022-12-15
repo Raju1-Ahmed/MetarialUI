@@ -5,6 +5,7 @@ import { MuiDrawer } from './Component/MuiDrawer.tsx';
 // import { MuiAccordion } from './Component/MuiAccordion.tsx';
 // import { MuiImageList } from './Component/MuiImageList.tsx';
 import { MuiNavbar } from './Component/MuiNavbar.tsx';
+import { MuiSpeedDial } from './Component/MuiSpeedDial.tsx';
 // import { MuiAutoComplete } from './Component/MuiAutoComplete.tsx';
 // import MuiButton from './Component/MuiButton.tsx';
 // import { MuiCard } from './Component/MuiCard.tsx';
@@ -35,6 +36,7 @@ function App() {
       <MuiNavbar/>
       <MuiBreadCrumbs/>
       <MuiDrawer/>
+      <MuiSpeedDial/>
       {/* <MuiLink/> */}
     </div>
   );
